@@ -2,7 +2,7 @@
 
 ## Sommaire
 - **[TP_1](#tp_1-)**
-- **[TP_2](#tp_2-)**
+- **[TP_2](#tp_2)**
 
 ___
 
@@ -25,9 +25,12 @@ Lien :[WIK-DPS-TP02](TP-2/)
 
 **Excercice :**
 
+Lien :[TP2.1](TP-2/TP-2.1/)
 - Créer une image Docker avec un seul stage qui permet d’exécuter votre API développée précédemment (WIK-DPS-TP01)
 - L'image doit être la plus optimisée possible concernant l'ordre des layers afin de limiter le temps de build lors des modifications sur le code
 - Scanner votre image avec docker scan, trivy ou clair pour obtenir la liste des vulnérabilités détectées
+
+Lien :[TP2.2](TP-2/TP-2.2/)
 - L'image doit utiliser un utilisateur spécifique pour l'exécution de votre serveur web
 - Créer une seconde image Docker pour votre API avec les mêmes contraintes en termes d'optimisations mais avec plusieurs stages : un pour l'étape de build et une autre pour l’exécution (qui ne contient pas les sources)
 
