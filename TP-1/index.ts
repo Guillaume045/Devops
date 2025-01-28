@@ -15,5 +15,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PING_LISTEN_PORT, () => {
-    console.log('Server is running on port ${PING_LISTEN_PORT}');
+    console.log('Server is running on port localhost:'+PING_LISTEN_PORT);
+;
 }) 
